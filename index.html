@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now.com</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Nav Css */
+        nav {
+            width: 100%;
+            margin-top: -0.1%;
+            background-color: #003580;
+            height: 165px;
+
+        }
+
+        /* nav first row css */
+        #logo {
+            height: 40px;
+            width: 180px;
+            padding-left: 14%;
+            padding-top: 3%;
+        }
+
+        #india {
+            height: 25%;
+            width: 4.8%;
+            border-radius: 50%;
+            margin-top: 9.5%;
+
+        }
+
+        #head {
+            width: 35%;
+            display: flex;
+            justify-content: space-between;
+            padding-right: 11%;
+        }
+
+        nav>div {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        /* Nav second row */
+        .navbutton>img {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            padding-right: 11px;
+        }
+
+        .navbutton {
+            display: flex;
+            color: white;
+
+        }
+
+        .navbutton>p {
+            margin-top: 10%;
+        }
+
+        /* anchor tag */
+        a {
+
+            text-decoration: none;
+        }
+
+        #navbutton {
+            width: 60%;
+            margin-left: 12%;
+            margin-top: 2%;
+
+        }
+
+        /* second div */
+        #seconddiv {
+            width: 99.7%;
+            height: 50%;
+
+            border: 2px solid black;
+            background-image: url(./img/183939625.jpeg);
+            background-image: no-repeat;
+            background-size: 100% 100%;
+        }
+
+        /* Search Bar */
+        #main {
+            display: flex;
+            height: 60px;
+            background-color: rgb(238, 158, 11);
+            width: 76%;
+            margin: auto;
+            margin-top: -1.5%;
+        }
+
+
+        .search {
+            width: 40%;
+            height: 65px;
+            /* background-color: aqua; */
+
+        }
+
+        .search input {
+            width: 99%;
+            height: 72%;
+            margin: 0.5%;
+            margin-top: 1%;
+        }
+
+        .check {
+            display: flex;
+            height: 50px;
+            width: 22%;
+            background-color: white;
+            margin: 0.5%;
+        }
+
+        .check>div {
+            width: 50%;
+        }
+
+        .check input {
+            width: 90%;
+        }
+
+
+        .check p {
+            text-align: center;
+        }
+
+        .count {
+            height: 50px;
+            background-color: white;
+            margin-top: 2%;
+        }
+
+        .count input {
+            width: 90%;
+            height: 28px;
+            padding-left: 3%;
+
+        }
+
+        #count {
+            display: flex;
+            width: 24%;
+        }
+
+        #count p {
+            text-align: center;
+        }
+
+        #search {
+            width: 150px;
+            height: 50px;
+            background-color: #0071c2;
+            margin-top: 0.5%;
+            margin-left: 0.5%;
+            margin-right: 0.5%;
+            text-align: center;
+        }
+
+
+
+
+
+
+
+
+
+        /* footer */
+        #footer p {
+            padding-top: 3%;
+            color: #0071c2;
+        }
+
+        #footer {
+            display: flex;
+            justify-content: space-between;
+            width: 75%;
+            margin: auto;
+            margin-top: 2%;
+            margin-bottom: 4%;
+        }
+        #footerImages{
+            padding-top: 2%;
+            display: grid;
+            grid-template-columns: repeat(6,1fr);
+            width: 50%;
+            margin: auto;
+            gap: 10px;
+           
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Nav Div -->
+    <nav>
+        <!-- Nav first row -->
+        <div>
+            <img src="./img/IMG_20221212_230651.png" alt="" id="logo">
+
+            <div id="head">
+                <h3 style="color: white; margin-top: 9.5%;">INR</h3>
+                <img src="https://illustoon.com/photo/910.png" alt="" id="india">
+                <h3 style="color: white; font-size: 30px; margin-top: 8.5%;">?</h3>
+                <h3
+                    style="border: 2px solid white ; background-color: #003580 ;margin-top: 7.5%; padding-top: 1.5% ; padding-left: 1%; padding-right: 1%; color: white;border-radius: 7%; ">
+                    List Your Property</h3>
+                <button
+                    style="height: 40%; margin-top: 8.5%; width: 15%; font-size: 15px; color: rgb(21, 120, 173); border-radius: 7%; border: 0px; margin-right: 10%; ">Register</button>
+                <button
+                    style="height: 40%; width: 14%; margin-top: 8.5%; font-size: 15px; color: rgb(21, 120, 173); border-radius: 7%; border: 0px; margin-left: -10%;">Sign
+                    in</button>
+            </div>
+
+
+        </div>
+        <!-- Nav second Row -->
+        <div id="navbutton">
+            <a href="./hotles.html">
+                <div class="navbutton">
+                    <img src="./img/IMG_20221213_224540.png" alt="">
+                    <p style="margin-top: 15%;">Stays</p>
+                </div>
+            </a>
+            <div class="navbutton">
+                <img src="./img/pngtree-air-plane-in-flight-image_2287112-removebg-preview.png" alt="">
+                <p style="margin-top: 15%;">Flights</p>
+            </div>
+            <div class="navbutton">
+                <img src="./img/hotels.png" alt="">
+                <p>Flight + Hotel</p>
+            </div>
+            <div class="navbutton">
+                <img src="./img/images-removebg-preview (1).png" alt="">
+                <p>Car rentals</p>
+            </div>
+            <div class="navbutton">
+                <img src="./img/aa234d_30138b57008d4b1bbbe180f86eb140ab_mv2_d_2018_1386_s_2-removebg-preview.png"
+                    alt="">
+                <p>Attractions</p>
+            </div>
+            <div class="navbutton">
+                <img src="https://www.citypng.com/public/uploads/small/11663623788wbge7e97ddvv8jq1tmn3a1aupm2wd7fmucl4shbly3ehfefc0vnqqbz1pv9dykucocvvuht2pgadnwkvcndlbv5cce61r7se0uqr.png"
+                    alt="">
+                <p>Airport taxis</p>
+            </div>
+
+        </div>
+    </nav>
+    <div id="seconddiv">
+        <div style="margin: 2% 0 0 12%; width: 600px;">
+            <h1 style="color: white; font-size: 50px;">The joy of home anywhere in the word</h1>
+        </div>
+        <div style="margin: 1% 0 0 12%; width: 500px;">
+            <h3 style="color: white; font-size: 30px; font-weight: 100;">Easy booking, easy living</h3>
+        </div>
+        <div style="height: 100px;">
+            <div style="background-color: #0071c2; width: 220px; height: 50px; margin: 3% 12%;">
+                <h3 style="color: white; font-weight: 100; padding: 5% 0 0 8%;">Explore holiday homes</h3>
+            </div>
+        </div>
+    </div>
+    <!-- Search Bar -->
+    <div id="main">
+        <div class="search">
+            <input type="text" placeholder=" Where are you going?">
+        </div>
+        <div class="check">
+            <div>
+                <p>Check-in</p>
+                <input type="date">
+            </div>
+            <div>
+                <p>Check-out</p>
+                <input type="date">
+            </div>
+
+        </div>
+        <div id="count">
+            <div class="count">
+                <p>adults</p>
+                <input type="number">
+            </div>
+            <div class="count">
+                <p>children</p>
+                <input type="number">
+            </div>
+            <div class="count">
+                <p>room</p>
+                <input type="number">
+            </div>
+
+        </div>
+        <div id="search">
+            <p style="color: white;font-size: 35px; font-weight: 100; ">Search</p>
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- Footer -->
+    <div id="footer">
+        <div>
+            <p>Countries</p>
+            <p>Regions</p>
+            <p>Cities</p>
+            <p>Districts</p>
+            <p>Airports</p>
+            <p>Hotels</p>
+            <p>Places of interest</p>
+        </div>
+        <div>
+            <p>Homes</p>
+            <p>Apartments</p>
+            <p>Resorts</p>
+            <p>Villas</p>
+            <p>Hostels</p>
+            <p>B&Bs</p>
+            <p>Guest houses</p>
+        </div>
+        <div>
+            <p>Unique places to stay</p>
+            <p>All destinations</p>
+            <p>Discover</p>
+            <p>Reviews</p>
+            <p>Unpacked: Travel articles</p>
+            <p>Travel Communities</p>
+            <p>Seasonal and holiday deals</p>
+        </div>
+        <div>
+            <p>Car hire</p>
+            <p>Flight finder</p>
+            <p>Restaurant reservations</p>
+            <p>Book Now.com for Travel Agents </p>
+        </div>
+        <div>
+            <p>Coronavirus (COVID-19) FAQs</p>
+            <p>About Book Now.com</p>
+            <p>Customer</p>
+            <p>Partner help</p>
+            <p>Careers</p>
+            <p>Sustainability</p>
+            <p>Press center</p>
+            <p>Safety resource centre</p>
+            <p>Investor relations</p>
+            <p>Terms & Conditions</p>
+            <p>Partner dispute</p>
+            <p>How we work</p>
+            <p>Privacy & Cookies Statement</p>
+            <p>MSA Statement</p>
+            <p>Corporate contact</p>
+        </div>
+
+    </div>
+   
+        <p style="color: #0071c2; font-size: 17px; text-align: center; margin-bottom: 2%;">Extranet login</p>
+
+    <div style="width: 75%; margin: auto;">
+        <p style="font-size: 13px;">Copyright © 1996 - 2022 Booking.com™. All rights reserved.
+        </p>
+    </div>
+    <div>
+        <p style="font-size: 15px; margin-top: 3%; text-align: center; color: gray;">Booking.com is part of Booking Holdings Inc., the world leader in online travel and related services.</p>
+    </div>
+    <div id="footerImages">
+        <div>
+        <img src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_booking/27c8d1832de6a3123b6ee45b59ae2f81b0d9d0d0.png" alt="">
+        </div>
+        <div><img src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_priceline/f80e129541f2a952d470df2447373390f3dd4e44.png" alt=""></div>
+        <div><img src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_kayak/83ef7122074473a6566094e957ff834badb58ce6.png" alt=""></div>
+        <div><img src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_agoda/1c9191b6a3651bf030e41e99a153b64f449845ed.png" alt=""></div>
+        <div><img src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_rentalcars/6bc5ec89d870111592a378bbe7a2086f0b01abc4.png" alt=""></div>
+        <div><img src="https://cf.bstatic.com/static/img/tfl/group_logos/logo_opentable/a4b50503eda6c15773d6e61c238230eb42fb050d.png" alt=""></div>
+    </div>
+</body>
+
+<script>
+
+</script>
+
+</html>

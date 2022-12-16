@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register and Log in</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /********Nav Bar*******/
+        nav {
+            height: 70px;
+            background-color: #003580;
+        }
+
+        #logo {
+            height: 35px;
+            width: 180px;
+            padding-left: 150%;
+            padding-top: 10%;
+            cursor: pointer;
+        }
+
+        #india {
+            height: 60%;
+            width: 11%;
+            border-radius: 50%;
+            cursor: pointer;
+            margin-right: 40px;
+            margin-top: 15px;
+        }
+
+        #head {
+            width: 35%;
+
+            margin-left: 65%;
+        }
+
+        nav div {
+            display: flex;
+        }
+
+        /*----------------------*/
+        #createAcc {
+            width: 25%;
+            height: auto;
+            /* border: 1px solid blue; */
+            margin: auto;
+            margin-top: 30px;
+        }
+
+        #createAcc>p {
+            font-size: 27px;
+            font-weight: 600;
+            padding-bottom: 30px;
+        }
+
+        #createAcc input {
+            width: 380px;
+            height: 35px;
+            border: 3px solid #0071c2;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        #createAcc button {
+            width: 100%;
+            height: 45px;
+            background-color: #0071c2;
+            border: none;
+            border-radius: 5px;
+            margin-top: 15px;
+            font-size: 15px;
+            color: white;
+        }
+
+        #createAcc div p {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 15px;
+        }
+
+        #otherOpt {
+            margin-top: 40px;          display:flex;
+          justify-content: space-evenly;
+        }
+
+        #otherOpt div {
+            height: 70px;
+            width: 22%;
+            border: 2px solid lightgray;
+            text-align: center;
+            padding-top: 20px;
+          
+        }
+
+        #otherOpt img {
+            width: 70%;
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <!-- Nav first row -->
+        <div>
+            <div>
+                <img src="./img/IMG_20221212_230651.png" alt="" id="logo">
+            </div>
+            <div id="head">
+                <img src="https://illustoon.com/photo/910.png" alt="" id="india">
+                <h3 style="color: white; font-size: 33px; margin-top: 12px; cursor: pointer;">?</h3>
+            </div>
+
+        </div>
+    </nav>
+    <!--------------------------------------------->
+    <div id="createAcc">
+        <p>Sign in or create an account</p>
+        <h3>Email adderss</h3>
+        <input type="email">
+        <button>Continue with email</button>
+        <div>
+            <p>or use one of these options
+            </p>
+        </div>
+        <div id="otherOpt">
+            <div>
+                <img src="https://i.pinimg.com/736x/ac/57/3b/ac573b439cde3dec8ca1c6739ae7f628.jpg" alt="">
+            </div>
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjWiS07fm1g8N7EVChukk-gaJMxIPPe0ik0A&usqp=CAU"
+                    alt="">
+            </div>
+            <div><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL8MpPllBJ5gKoJm-xh5EGTqtHFZOju_a8sw&usqp=CAU"
+                    alt="">
+            </div>
+        </div>
+        <p style="color: #0071c2; font-size: 18px; text-align: center; margin-top: 30px;">More ways to sign in</p>
+        <div>
+            <p style="box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;">By signing in or creating an account, you agree with our <span style="color: #0071c2;">Terms & conditions</span> and <span style="color: #0071c2;">Privacy</span>  statement</p>
+        </div>
+        <div>
+            <p style="margin-top: 30px;">All rights reserved.</p>
+            <p> Copyright (2006 - 2022) - Booking.com™</p>
+        </div>
+    </div>
+
+</body>
+<script>
+     document.getElementById("logo").addEventListener("click",()=>{
+    window.location.href= "./index.html"
+  })
+</script>
+
+</html>

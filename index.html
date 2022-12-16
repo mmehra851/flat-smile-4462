@@ -27,14 +27,17 @@
             width: 180px;
             padding-left: 14%;
             padding-top: 3%;
+            cursor: pointer;
+        
         }
-
+      
+    
         #india {
             height: 25%;
             width: 4.8%;
             border-radius: 50%;
             margin-top: 9.5%;
-
+            cursor: pointer;
         }
 
         #head {
@@ -488,9 +491,7 @@
        #list h5{
         text-decoration: underline;
         color: white;
-       }
-       
-                
+       }   
         /* footer */
         #footer p {
             padding-top: 3%;
@@ -522,24 +523,25 @@
     <!-- Nav Div -->
     <nav>
         <!-- Nav first row -->
-        <div>
+        <div>  
             <img src="./img/IMG_20221212_230651.png" alt="" id="logo">
+       
+                 
+              
 
             <div id="head">
-                <h3 style="color: white; margin-top: 9.5%;">INR</h3>
+                <h3 style="color: white; margin-top: 9.5%; cursor: pointer;">INR</h3>
                 <img src="https://illustoon.com/photo/910.png" alt="" id="india">
-                <h3 style="color: white; font-size: 30px; margin-top: 8.5%;">?</h3>
+                <h3 style="color: white; font-size: 30px; margin-top: 8.5%;cursor: pointer;">?</h3>
                 <h3
-                    style="border: 2px solid white ; background-color: #003580 ;margin-top: 7.5%; padding-top: 1.5% ; padding-left: 1%; padding-right: 1%; color: white;border-radius: 7%; ">
+                    style="border: 2px solid white ; background-color: #003580 ;margin-top: 7.5%; padding-top: 1.5% ; padding-left: 1%; padding-right: 1%; color: white;border-radius: 7%;cursor: pointer; ">
                     List Your Property</h3>
-                <button
-                    style="height: 40%; margin-top: 8.5%; width: 15%; font-size: 15px; color: rgb(21, 120, 173); border-radius: 7%; border: 0px; margin-right: 10%; ">Register</button>
-                <button
-                    style="height: 40%; width: 14%; margin-top: 8.5%; font-size: 15px; color: rgb(21, 120, 173); border-radius: 7%; border: 0px; margin-left: -10%;">Sign
+                <button id="Register"
+                    style="height: 40%; margin-top: 8.5%; width: 15%; font-size: 15px; color: rgb(21, 120, 173); border-radius: 7%; border: 0px; margin-right: 10%;cursor: pointer; ">Register</button>
+                <button id="Sign"
+                    style="height: 40%; width: 14%; margin-top: 8.5%; font-size: 15px; color: rgb(21, 120, 173); border-radius: 7%; border: 0px; margin-left: -10%;cursor: pointer;">Sign
                     in</button>
             </div>
-
-
         </div>
         <!-- Nav second Row -->
         <div id="navbutton">
@@ -1236,15 +1238,6 @@
       <h5>Book Now.com for Business</h5>
     </div>
   </div>
-    
-
-
-
-
-
-
-
-
     <!-- Footer -->
     <div id="footer">
         <div>
@@ -1334,7 +1327,15 @@
 </body>
 
 <script>
-
+  document.getElementById("logo").addEventListener("click",()=>{
+    window.location.href= "./index.html"
+  })
+  document.getElementById("Register").addEventListener("click",()=>{
+    window.location.href= "./register.html"
+  })
+  document.getElementById("Sign").addEventListener("click",()=>{
+    window.location.href= "./register.html"
+  })
 </script>
 
 </html>

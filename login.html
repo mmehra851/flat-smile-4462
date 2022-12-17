@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register and Log in</title>
+    <title>Log in</title>
     <style>
         * {
             margin: 0;
@@ -86,9 +86,8 @@
         }
 
         #otherOpt {
-            margin-top: 40px;
-            display: flex;
-            justify-content: space-evenly;
+            margin-top: 40px;          display:flex;
+          justify-content: space-evenly;
         }
 
         #otherOpt div {
@@ -97,7 +96,7 @@
             border: 2px solid lightgray;
             text-align: center;
             padding-top: 20px;
-
+          
         }
 
         #otherOpt img {
@@ -123,12 +122,12 @@
     </nav>
     <!--------------------------------------------->
     <div id="createAcc">
-        <p>Create an account</p>
+        <p>Log in</p>
         <h3>Email adderss</h3>
-        <input id="REmail" type="email">
+        <input id="LEmail" type="email">
         <h3>Password</h3>
-        <input type="password" id="RPass">
-        <button id="signup">Register</button>
+        <input id="LPass" type="password">
+        <button id="login">Log in</button>
 
         <div>
             <p>or use one of these options
@@ -149,9 +148,7 @@
         </div>
         <p style="color: #0071c2; font-size: 18px; text-align: center; margin-top: 30px;">More ways to sign in</p>
         <div>
-            <p style="box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;">By signing in or creating an account, you agree
-                with our <span style="color: #0071c2;">Terms & conditions</span> and <span
-                    style="color: #0071c2;">Privacy</span> statement</p>
+            <p style="box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;">By signing in or creating an account, you agree with our <span style="color: #0071c2;">Terms & conditions</span> and <span style="color: #0071c2;">Privacy</span>  statement</p>
         </div>
         <div>
             <p style="margin-top: 30px;">All rights reserved.</p>
@@ -161,37 +158,34 @@
 
 </body>
 <script>
-    document.getElementById("logo").addEventListener("click", () => {
-        window.location.href = "./index.html"
-    })
-
-
-    document.getElementById("signup").addEventListener("click", () => {
-        let user = JSON.parse(localStorage.getItem("user")) || []
-        let isnew = true
-        let email = document.getElementById("REmail").value
-        for (let i = 0; i < user.length; i++) {
-            if (user[i].email == email) {
-                isnew = false
-            }
+     document.getElementById("logo").addEventListener("click",()=>{
+    window.location.href= "./index.html"
+  })
+   // login 
+   document.getElementById("login").addEventListener("click",()=>{
+      let user=JSON.parse(localStorage.getItem("user"))||[]
+      let eemail=document.getElementById("LEmail").value
+      let epass=document.getElementById("LPass").value
+      let isvalid=false
+      let id=0
+      for(let i=0;i<user.length;i++){
+        if(user[i].email==eemail){
+          if(user[i].pass==epass){
+            isvalid=true
+            id=i
+          }
         }
-        if (isnew) {
-            user.push({
-
-                email: document.getElementById("REmail").value,
-
-                pass: document.getElementById("RPass").value
-            })
-            localStorage.setItem("user", JSON.stringify(user))
-            alert("Registeration done you can log in now")
-        } else {
-            alert("alredy Registered")
-        }
+      }
+      if(isvalid){
+//         document.getElementById("logo").addEventListener("click",()=>{
+//     window.location.href= "./index.html"
+//   })
+        alert("login successful")
+        localStorage.setItem("userlog",JSON.stringify(user[id]))
+      }else{
+        alert("wrong credentials")
+      }
     })
-
-
 </script>
-
-
 
 </html>

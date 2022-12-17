@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./img/IMG_20221212_230651.png">
     <title>Book Now.com</title>
     <style>
         * {
@@ -592,7 +593,7 @@
     <!-- Search Bar -->
     <div id="main">
         <div class="search">
-            <input type="text" placeholder="              Where are you going?">
+            <input id="input" type="text" placeholder="              Where are you going?">
         </div>
         <div class="check">
             <div>
@@ -621,7 +622,7 @@
 
         </div>
         <div id="search">
-            <p style="color: white;font-size: 35px; font-weight: 100; ">Search</p>
+            <p  style="color: white;font-size: 35px; font-weight: 100; ">Search</p>
         </div>
 
     </div>
@@ -1334,8 +1335,12 @@
     window.location.href= "./register.html"
   })
   document.getElementById("Sign").addEventListener("click",()=>{
-    window.location.href= "./register.html"
+    window.location.href= "./login.html"
   })
+  document.getElementById("search").addEventListener("click",()=>{
+        localStorage.setItem("sea",JSON.stringify(document.getElementById("input").value))
+        window.location.href="./afterSearch.html"
+    })
 </script>
 
 </html>

@@ -1,0 +1,483 @@
+[
+    {
+        "id":1,
+        "place":"Goa",
+        "location": "Goa",
+        "name":"Pride Plaza, Aerocity Goa",
+        "img":"https://cf.bstatic.com/xdata/images/hotel/square600/400881138.webp?k=72c26b611cda4b8068c7ba4a9f8f898db99c335974c9fbe403303ff065666f27&o=&s=1",
+        "rating":"4.7"
+
+    },
+    {
+        "id":2,
+        "place":"Goa",
+        "location": "Goa",
+        "name":"bride plaza, Aerocity Goa",
+        "img":"https://cf.bstatic.com/xdata/images/hotel/square600/338004770.webp?k=1f7142437cbc075313c5f258137625c683c5cc5d4432f44348dc1c5c1ccf748d&o=&s=1",
+        "rating":"4.7"
+    },
+    {
+        "id":3,
+        "place":"Goa",
+        "location": "Goa",
+        "name":"bride plaza new, Aerocity Goa",
+        "img":"https://cf.bstatic.com/xdata/images/hotel/square600/401982953.webp?k=83d9c1f728405d57d8395a92953f1e4d5ee9e293a781ebe909152484137c6220&o=&s=1",
+        "rating":"4.7"
+    },
+    {
+        "id":4,
+        "place":"Goa",
+        "location": "Goa",
+        "name":"casa plaza new, city Goa",
+        "img":"https://cf.bstatic.com/xdata/images/hotel/square600/401982953.webp?k=83d9c1f728405d57d8395a92953f1e4d5ee9e293a781ebe909152484137c6220&o=&s=1",
+        "rating":"4.5"
+    },
+    {
+        "id":5,
+        "place":"Goa",
+        "location": "Goa",
+        "name":"casetotn , city Goa",
+        "img":"https://cf.bstatic.com/xdata/images/hotel/square600/340360623.webp?k=16ae6132c6b4571b8d31058e3868fa7a1f910b928e4388488c5f1d248dcc816c&o=&s=1",
+        "rating":"4.0"
+    },
+    {
+        "id":6,
+        "place":"Goa",
+        "location": "Goa",
+        "name":"caseatayo , city Goa",
+        "img":"https://cf.bstatic.com/xdata/images/hotel/square600/378571104.webp?k=c8d3b59cdbb80c3220339a81907e4e7070589e152ae2ce35d978a827ef10f5d1&o=&s=1",
+        "rating":"3.0"
+    },
+    {
+        "id":7,
+        "place":"Goa",
+        "location": "Goa",
+        "name":"caseatayo new city , city Goa",
+        "img":"https://cf.bstatic.com/xdata/images/hotel/square600/322875748.webp?k=a6b8d5e8c6f243d2799c32233d2ebbd373178e7eec80d294143dcfda53e5b085&o=&s=1",
+        "rating":"3.9"
+    },
+    {
+        "id":8,
+        "place":"Goa",
+        "location": "Goa",
+        "name":"lolo new city , city Goa",
+        "img":"https://cf.bstatic.com/xdata/images/hotel/square600/353218101.webp?k=d5f3a3f5b7903732d29caaa8cbd7c9119c08563b8bb17713466e2f89d20de5e0&o=&s=1",
+        "rating":"3.8"
+    },
+    {
+        "id":9,
+        "place":"Goa",
+        "location": "Goa",
+        "name":"locality yra city , city Goa",
+        "img":"https://cf.bstatic.com/xdata/images/hotel/square600/404112944.webp?k=57ef3bf6236cf76b5942aeb91fbd1565d7054a1b511221586905f028a8ca2907&o=&s=1",
+        "rating":"4.8"
+    },
+    {
+        "id":10,
+        "place":"Goa",
+        "location": "Goa",
+        "name":"loca yra city , city Goa",
+        "img":"https://cf.bstatic.com/xdata/images/hotel/square600/388260839.webp?k=ec070ccb55efb8facf3c444a23c02e4fb4fa5e8d3a296602dc2b5cdc02fcc0f7&o=&s=1",
+        "rating":"4.9"
+    },
+    {
+        "id":11,
+        "place":"Mumbai",
+        "location": "Anjuna beach",
+        "name":"jm vista city , city Mumbai",
+        "img":"https://cf.bstatic.com/xdata/images/hotel/square600/180182886.webp?k=dbb899cc779c91c18f0fd5b8bd18059286eba7e63a00c78d5f418904546c3096&o=&s=1",
+        "rating":"4.5"
+    },
+    {
+        "id":12,
+        "place":"Mumbai",
+        "location": "Anjuna beach",
+        "name":" yra city , city Mumbai",
+        "img":"https://cf.bstatic.com/xdata/images/hotel/square600/180182886.webp?k=dbb899cc779c91c18f0fd5b8bd18059286eba7e63a00c78d5f418904546c3096&o=&s=1",
+        "rating":"4.0"
+    },
+    {
+        "id":13,
+        "place":"Mumbai",
+        "location": "Anjuna beach",
+        "name":" local city , city Mumbai",
+        "img":"https://cf.bstatic.com/xdata/images/hotel/square600/400881138.webp?k=72c26b611cda4b8068c7ba4a9f8f898db99c335974c9fbe403303ff065666f27&o=&s=1",
+        "rating":"4.2"
+    },
+    {
+        "id":14,
+        "place":"Mumbai",
+        "location": "Siolim",
+        "name":" local city , city Mumbai",
+        "img":"https://cf.bstatic.com/xdata/images/hotel/square600/227222651.webp?k=023401af568296a27b90896aa3591b48ac7f6ec4709cee078d473ec334ab2474&o=&s=1",
+        "rating":"4.6"
+    },
+    {
+        "id":15,
+        "place":"Mumbai",
+        "location": "Siolim",
+        "name":" New city , city Mumbai",
+        "img":"https://cf.bstatic.com/xdata/images/hotel/square600/315885586.webp?k=a431145dd90d6165248a24d7262bc5be0c22556b43cd3ed98a0dff295855b619&o=&s=1",
+        "rating":"4.6"
+    },
+    {
+        "id":16,
+        "place":"Mumbai",
+        "location": "Siolim",
+        "name":" New banua city , city Mumbai",
+        "img":"https://cf.bstatic.com/xdata/images/hotel/square600/401982953.webp?k=83d9c1f728405d57d8395a92953f1e4d5ee9e293a781ebe909152484137c6220&o=&s=1",
+        "rating":"4.6"
+    },
+    {
+        "id":17,
+        "place":"Mumbai",
+        "location": "Siolim",
+        "name":" banua city , city Mumbai",
+        "img":"https://cf.bstatic.com/xdata/images/hotel/square600/338105513.webp?k=81aefd4309cd982e497f642f85b4a2dc63e6b2a2ec6db137f201518a65677ce6&o=&s=1",
+        "rating":"4.7"
+    },
+    {
+        "id":18,
+        "place":"Mumbai",
+        "location": "Siolim",
+        "name":" banua de generio city , city Mumbai",
+        "img":"https://cf.bstatic.com/xdata/images/hotel/square600/404112944.webp?k=57ef3bf6236cf76b5942aeb91fbd1565d7054a1b511221586905f028a8ca2907&o=&s=1",
+        "rating":"4.3"
+    },
+    {
+        "id":19,
+        "place":"Mumbai",
+        "location": "Siolim",
+        "name":" banua generio city , city Mumbai",
+        "img":"https://cf.bstatic.com/xdata/images/hotel/square600/363332384.webp?k=33f95ac8f707e1a3cad6aca418e37972d9c7b9fbd5b0985554c4d2482b6220ae&o=&s=1",
+        "rating":"4.6"
+    },
+    {
+        "id":20,
+        "place":"Mumbai",
+        "location": "Siolim new",
+        "name":" generio city , city Mumbai",
+        "img":"https://cf.bstatic.com/xdata/images/hotel/square600/404112944.webp?k=57ef3bf6236cf76b5942aeb91fbd1565d7054a1b511221586905f028a8ca2907&o=&s=1",
+        "rating":"4.6"
+    },
+    {
+        "id":21,
+        "place":"Mumbai",
+        "location": "Siolim new",
+        "name":" generio city , city Mumbai",
+        "img":"https://cf.bstatic.com/xdata/images/hotel/square600/410757170.webp?k=b0bc8667ab25e75ffb6872f6a842c99361e9c7c1703ee852b32ee3accc3ee3a9&o=&s=1",
+        "rating":"4.6"
+    },
+    {
+        "id":22,
+        "place":"Lucknow",
+        "location": "Gomti nagar",
+        "name":" fab villas and apartment, city Lucknow",
+        "img":"https://cf.bstatic.com/xdata/images/hotel/square600/413501339.webp?k=86a38413ac3929313fe5ee7189904f72cfd94bb41c583d0e851885449cc188a3&o=&s=1",
+        "rating":"4.3"
+    },
+    {
+        "id":23,
+        "place":"Lucknow",
+        "location": "Gomti nagar",
+        "name":" fab villas and apartment, city Lucknow",
+        "img":"https://cf.bstatic.com/xdata/images/hotel/square600/36505496.webp?k=f026adde6ea803776c6541ea6eee894cd9c4ad8cc1bf2c0becdd62091dc871fa&o=&s=1",
+        "rating":"4.3"
+    }, 
+    {
+        "id":24,
+        "place":"Lucknow",
+        "location": "Gomti nagar",
+        "name":" fab villas and apartment, city Lucknow",
+        "img":"https://cf.bstatic.com/xdata/images/hotel/square600/53900007.webp?k=f88ebb780bc90daad075ff64d2445d3bff613d84231f6cd95030163749961d54&o=&s=1",
+        "rating":"4.8"
+    },
+    {
+        "id":25,
+        "place":"Lucknow",
+        "location": "Gomti nagar",
+        "name":" fab villas and apartment, city Lucknow",
+        "img":"https://cf.bstatic.com/xdata/images/hotel/square600/401812736.webp?k=623e2e9a9fab443f12b191aa583bbcc69c3ddad0455f382a223945e4fa547954&o=&s=1",
+        "rating":"4.8"
+    },
+    {
+        "id":26,
+        "place":"Lucknow",
+        "location": "Gomti nagar",
+        "name":" fab villas and apartment, city Lucknow",
+        "img":"https://cf.bstatic.com/xdata/images/hotel/square600/401812736.webp?k=623e2e9a9fab443f12b191aa583bbcc69c3ddad0455f382a223945e4fa547954&o=&s=1",
+        "rating":"4.8"
+    },
+    {
+        "id":27,
+        "place":"Lucknow",
+        "location": "vikas nagar",
+        "name":"villas and apartment, city Lucknow",
+        "img":"https://cf.bstatic.com/xdata/images/hotel/square600/74959484.webp?k=64307fcfe4f7c33b41d81d8969aec068b3a316107d0256f1aae2d0779e448f43&o=&s=1",
+        "rating":"4.9"
+    },
+    {
+        "id":28,
+        "place":"Lucknow",
+        "location": "vikas nagar",
+        "name":"villas and apartment, city Lucknow",
+        "img":"https://cf.bstatic.com/xdata/images/hotel/square600/413277511.webp?k=4739fc612c5d09f4f9c389d3eba765d447a19906f9f0d2e5588ffa6c469b46e9&o=&s=1",
+        "rating":"4.5"
+    },
+    {
+        "id":29,
+        "place":"Lucknow",
+        "location": "vikas nagar",
+        "name":"villas and apartment, city Lucknow",
+        "img":"https://cf.bstatic.com/xdata/images/hotel/square600/385423421.webp?k=fa9de948e663242c53fef18c66ce364e0954927265b3d2690f596ce2b9b4f7fb&o=&s=1",
+        "rating":"4.5"
+    },
+    {
+        "id":30,
+        "place":"Lucknow",
+        "location": "vikas nagar",
+        "name":"villas and apartment, city Lucknow",
+        "img":"https://cf.bstatic.com/xdata/images/hotel/square600/80052958.webp?k=a8fedad86f7fcf2763dd8b9a6c4ef511b92aed443b050b402572fff62288fb49&o=&s=1",
+        "rating":"5.0"
+    },
+    {
+        "id": 31,
+        "place": "uttarakhand",
+        "location": "Dehradun",
+        "name": "FabHotel City Palace",
+        "img": "https://cf.bstatic.com/xdata/images/hotel/square600/407635708.webp?k=a0ce0db4c3e2dc60d2d654902b4932b6b33cec1189f253a2acb79b240a2d7061&o=&s=1",
+        "rating": "4.5"
+    },
+    {
+        "id": 32,
+        "place": "uttarakhand",
+        "location": "Dehradun",
+        "name": "Fairfield by Marriott Dehradun",
+        "img": "https://cf.bstatic.com/xdata/images/hotel/square600/330004371.webp?k=565348fdf6f596c8be3b9017469aeaa9eb847bed77beecc3183b5c50e2fad2d0&o=&s=1",
+        "rating": "3.5"
+    },
+    {
+        "id": 33,
+        "place": "uttarakhand",
+        "location": "Dehradun",
+        "name": "Four Points by Sheraton Dehradun",
+        "img": "https://cf.bstatic.com/xdata/images/hotel/square600/335161868.webp?k=43700327632134089d3086c12d41d458347d1d73f3f65fceb4eb661db0c9717a&o=&s=1",
+        "rating": "3.0"
+    },
+    {
+        "id": 34,
+        "place": "uttarakhand",
+        "location": "Dehradun",
+        "name": "The Solitaire Express",
+        "img": "https://cf.bstatic.com/xdata/images/hotel/square600/317526200.webp?k=3598cf618306dc9020ce922eb2380969e0e68b0b6262263c825b8509abb66808&o=&s=1",
+        "rating": "2.5"
+    },
+    {
+        "id": 35,
+        "place": "uttarakhand",
+        "location": "Nainital",
+        "name": "Tree of Life Resort",
+        "img": "https://cf.bstatic.com/xdata/images/hotel/square600/411411022.webp?k=49eaf0d9b1d4264163de9310d171da8789e266ff0df00e2290d9512c376e70aa&o=&s=1",
+        "rating": "4.5"
+    },
+    {
+        "id": 36,
+        "place": "uttarakhand",
+        "location": "Nainital",
+        "name": "Aura Rooms",
+        "img": "https://cf.bstatic.com/xdata/images/hotel/square600/320010099.webp?k=13778413a73df0b20ef36df764bdf85c5f41ff0bb440f0144f25f2c83c4c1c3d&o=&s=1",
+        "rating": "4.0"
+    },
+    {
+        "id": 37,
+        "place": "uttarakhand",
+        "location": "Nainital",
+        "name": "Spree Hotel kriday",
+        "img": "https://cf.bstatic.com/xdata/images/hotel/square600/384016047.webp?k=0762f979ed9c7aec119f54ce57091d8ae9ef3d173a8254422ccddab0986be060&o=&s=1",
+        "rating": "4.3"
+    },
+    {
+        "id": 38,
+        "place": "Delhi",
+        "location": "Delhi",
+        "name": "FabHotel Olivia Suite",
+        "img": "https://cf.bstatic.com/xdata/images/hotel/square600/328298058.webp?k=2422b7071e14ad0b68a906fa92a74a04e8d2e28cd000371d0cdd81d15f0960e2&o=&s=1",
+        "rating": "4.3"
+    },
+    {
+        "id": 39,
+        "place": "Delhi",
+        "location": "Delhi",
+        "name": "Hotel Tark inn Near IGI Airport",
+        "img": "https://cf.bstatic.com/xdata/images/hotel/square600/376305196.webp?k=6850d5d8696732a3c251999e6cbe8669e485e0371022386f9688c43d4b725d86&o=&s=1",
+        "rating": "4.0"
+    },
+    {
+        "id": 40,
+        "place": "Delhi",
+        "location": "Delhi",
+        "name": "Hotel Trans International - Near Delhi Airport ",
+        "img": "https://cf.bstatic.com/xdata/images/hotel/square600/338730432.webp?k=6330925e6fd3c3565dc23ccf4db84d40ba9227602b2aa6a1a049af83eef174ac&o=&s=1",
+        "rating": "4.1"
+    },
+    {
+        "id": 41,
+        "place": "Delhi",
+        "location": "Delhi",
+        "name": "Pride Plaza Hotel, Aerocity New Delhi",
+        "img": "https://cf.bstatic.com/xdata/images/hotel/square600/278261524.webp?k=dedff3d4d038bf6544c55d6ef81617a8745d5efc4adcf7eebdd6ef3ca2ef38ff&o=&s=1",
+        "rating": "4.7"
+    },
+    {
+        "id": 42,
+        "place": "Delhi",
+        "location": "Mahipalpur",
+        "name": "Travel Inn At Delhi Airport",
+        "img": "https://cf.bstatic.com/xdata/images/hotel/square600/405726486.webp?k=585be4749293d1e7f3b2de26e68b3962992ebcd9b1be075d70d4e1d6b2e63405&o=&s=1",
+        "rating": "3.7"
+    },
+    {
+        "id": 43,
+        "place": "Delhi",
+        "location": "South West",
+        "name": "OYO HOME 70249 Sparrow",
+        "img": "https://cf.bstatic.com/xdata/images/hotel/square600/406500201.webp?k=f85b52b46ce3cf7c9f0cf91bbb7ae2cd788ccb4c0872779fdb8f395420f8d31e&o=&s=1",
+        "rating": "3.4"
+    },
+    {
+        "id": 44,
+        "place": "Delhi",
+        "location": "Karol bagh",
+        "name": "Hotel International Inn - Near Delhi Airport",
+        "img": "https://cf.bstatic.com/xdata/images/hotel/square600/133622624.webp?k=21abcdac87c4a4ca3a494f32e43d944bb07fe50d18067e40173c3660c1492e78&o=&s=1",
+        "rating": "4.4"
+    },
+    {
+        "id": 45,
+        "place": "Himachal Pradesh",
+        "location": "Manali",
+        "name": "Valley of god",
+        "img": "https://cf.bstatic.com/xdata/images/hotel/square600/278480438.webp?k=154324a2755b21efdd1fd8d62e554baefa5a383d8030ac6ce0728dd5579fc734&o=&s=1",
+        "rating": "4.4"
+    },
+    {
+        "id": 46,
+        "place": "Himachal Pradesh",
+        "location": "Manali",
+        "name": "Hotel Airport city palace",
+        "img": "https://cf.bstatic.com/xdata/images/hotel/square600/405759060.webp?k=77e801d4fb2da1ee3149b0278a7e0b6fef28c2619ab0e9eef5732f3448b71191&o=&s=1",
+        "rating": "4.8"
+    },
+    {
+        "id": 47,
+        "place": "Himachal Pradesh",
+        "location": "Manali",
+        "name": "Hotel Lemon TreeOpens in new window",
+        "img": "https://cf.bstatic.com/xdata/images/hotel/square600/405759060.webp?k=77e801d4fb2da1ee3149b0278a7e0b6fef28c2619ab0e9eef5732f3448b71191&o=&s=1",
+        "rating": "4.2"
+    },
+    {
+        "id": 48,
+        "place": "Himachal Pradesh",
+        "location": "Manali",
+        "name": "Hotel Hollywood, manali",
+        "img": "https://cf.bstatic.com/xdata/images/hotel/square600/407187560.webp?k=6e0395bc896a3fdb5a5a1b192d88430059b26a9c86ed6d45f07e839440dece8d&o=&s=1",
+        "rating": "3.2"
+    },
+    {
+        "id": 49,
+        "place": "Himachal Pradesh",
+        "location": "Manali",
+        "name": "Holywood Classic-River view ResortOpens in new window",
+        "img": "https://cf.bstatic.com/xdata/images/hotel/square600/390383568.webp?k=9b5ad9e34783d1fbbd33ed5f0bedaf9309e353c7be0a302d9f2903b0a0063348&o=&s=1",
+        "rating": "4.2"
+    },
+    {
+        "id": 50,
+        "place": "Himachal Pradesh",
+        "location": "Manali",
+        "name": "Ram Cottage, ManaliOpens in new window ",
+        "img": "https://cf.bstatic.com/xdata/images/hotel/square600/404732255.webp?k=5cadc87347dc50f199fc29329c44112fcd9f7a46aac934bfb66b3cbd47a9e3c3&o=&s=1",
+        "rating": "4.8"
+    },
+    {
+        "id": 51,
+        "place": "Himachal Pradesh",
+        "location": "Manali",
+        "name": "Himalyan River Resort-A Riverside Resort",
+        "img": "https://cf.bstatic.com/xdata/images/hotel/square600/390465456.webp?k=13f7e34ebc379fd580b1d911a10960f9c96ca54fbbb119b2dba62ed19bff52f7&o=&s=1",
+        "rating": "4.1"
+    },
+    {
+        "id": 52,
+        "place": "Himachal Pradesh",
+        "location": "Manali",
+        "name": "Tales N TrailsOpens",
+        "img": "https://cf.bstatic.com/xdata/images/hotel/square600/409948616.webp?k=b370c69d5ded1b1559cf6d6e38b2768b6051e51ea1c275a09cc44aa73560a12a&o=&s=1",
+        "rating": "3.5"
+    },
+    {
+        "id": 53,
+        "place": "Bangalore",
+        "location": "Koramangala",
+        "name": "BNGV Mystic Premier Hotel",
+        "img": "https://cf.bstatic.com/xdata/images/hotel/square600/291459435.webp?k=c61626e7db964c2ba9fad526ead7a17abddd6d6c5b26749144d4650129b2003f&o=&s=1",
+        "rating": "3.7"
+    },
+    {
+        "id": 54,
+        "place": "Bangalore",
+        "location": "Koramangala",
+        "name": "Regenta Inn Grand-ORR, Mahadevapura",
+        "img": "https://cf.bstatic.com/xdata/images/hotel/square600/407765272.webp?k=b7c34a182892dab0f225cf681319c97f10226f82fa99652af3ee43bd506ae7f8&o=&s=1",
+        "rating": "4.7"
+    },
+    {
+        "id": 55,
+        "place": "Bangalore",
+        "location": "Brookefield",
+        "name": "De Venetian by TGI",
+        "img": "https://cf.bstatic.com/xdata/images/hotel/square600/229023145.webp?k=52cf72a0038071c66e1a9302a052eef666a08c5efc8779100bf964caa13d1059&o=&s=1",
+        "rating": "4.0"
+    },
+    {
+        "id": 56,
+        "place": "Bangalore",
+        "location": "Brookefield",
+        "name": "Novotel Bengaluru Outer Ring",
+        "img": "https://cf.bstatic.com/xdata/images/hotel/square600/234738973.webp?k=695b54bc32f8f15665eef5dc115723e8f06c9d7348beaf5300f41089407fb5f7&o=&s=1",
+        "rating": "3.0"
+    },
+    {
+        "id": 57,
+        "place": "Bangalore",
+        "location": "Brookefield",
+        "name": "Holiday Inn Express & Suites Bengaluru Old Madras Road, an IHG Hotel ",
+        "img": "https://cf.bstatic.com/xdata/images/hotel/square600/275017462.webp?k=e191b08b727c5ebf1e2302d4c4c9969c72a18851f226ca2192b208f3bafa56fb&o=&s=1",
+        "rating": "3.9"
+    },
+    {
+        "id": 58,
+        "place": "Bangalore",
+        "location": "Kadubeesanahalli",
+        "name": "FabHotel Athasri InnOpens in new window",
+        "img": "https://cf.bstatic.com/xdata/images/hotel/square600/387379195.webp?k=ba6e37ae98153821ef29d9f6750779127dd8113071730ccc9b154af957504f91&o=&s=1",
+        "rating": "4.9"
+    },
+    {
+        "id": 59,
+        "place": "Bangalore",
+        "location": "Bangalore",
+        "name": "Vivanta Bengaluru, WhitefieldOpens in new window",
+        "img": "https://cf.bstatic.com/xdata/images/hotel/square600/224038992.webp?k=e1901c09c176e03f140561651729a02999549622928a566217b1758710a28ae7&o=&s=1",
+        "rating": "3.9"
+    },
+    {
+        "id": 60,
+        "place": "Bangalore",
+        "location": "Bangalore",
+        "name": "Fortune Select Trinity - Member ITC Hotel Group",
+        "img": "https://cf.bstatic.com/xdata/images/hotel/square600/34448359.webp?k=e64bf44d3e04fa8aef46ed8e075feb4385384e3db36479c74af361d965c6d74a&o=&s=1",
+        "rating": "3.9"
+    }
+]
